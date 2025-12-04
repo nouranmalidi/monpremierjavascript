@@ -11,10 +11,12 @@ console.log(jeter);
 
 let racheter = 5;
 console.log(racheter);
+totalLivres = totalLivres + acheter - jeter + racheter;
+console.log("Totale livre acheter mis a jour:",totalLivres); 
 
-console.log(totalLivres + acheter - jeter + racheter); // Vérification du résultat grâce a console.log
 
 
-let affichageTotalLivres = console.log(totalLivres + acheter - jeter + racheter); /* Création d'une nouvelle variable 
-affichageTotalLivres et utilisation de consolole.log  pour affichez la phrase*/
+let affichageTotalLivres = totalLivres; /* Création d'une nouvelle variable 
+affichageTotalLivres et utilisation de consolole.log  pour affichez la phrase*/ 
+console.log("affichage totale livre:",affichageTotalLivres);
 
