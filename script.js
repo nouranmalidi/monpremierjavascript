@@ -27,6 +27,27 @@
             scores: [4,7,2]
 
         };
+       
+        // Je définis un objet qui représente un joueur de football professionnel
+        let joueurProfessionnel = {
+            nom: "Zinedine Yazid Zidane",
+            nationalite: ["Française", "Algérienne"], // Définis sous forme de tableau
+            dateNaissance: new Date(1972, 5, 23), /*Affichage d'une date de naissance complète*/
+            taille: 1.85, // la propriété taille désigne la taille du joueur
+            piedFort: "droit",
+            poste: "Milieu offensif"
+
+        };  // Ne pas oublier de fermer l'objet avec (;)
+
+        let Zena = {
+            nom: "Zéna M\'Déré",
+            nationalite: "Française",
+            dateNaissance: new Date("1920"), /*Affichage d'une date de naissance */
+            deces: new Date(1999, 9, 27),
+            membre: "Chatouilleuses",
+            distinction: "Officier de la Légion d'honneur"
+
+        };
 
         const prixTomate = 3.5;
         const nombreFraction = 1/3;
@@ -56,3 +77,8 @@
         console.log(client.age);
         console.log(client.scores);
         console.log(client.scores[1]); /*Affichage du tableau scores avec l'indice 1 qui se trouve dans l'objet client */
+
+        console.log(joueurProfessionnel); // J'affiche l'ensemble de l'objet joueurProfessionnel
+        console.log(Zena); // J'affiche l'ensemble de l'objet Zena
+        console.log(Zena.deces); // J'affiche la date de deces de Zena avec (.)
+        console.log(joueurProfessionnel.nationalite[0]) // J'affiche la première nationalité de Zidane
