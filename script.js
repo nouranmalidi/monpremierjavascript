@@ -82,3 +82,6 @@
         console.log(Zena); // J'affiche l'ensemble de l'objet Zena
         console.log(Zena.deces); // J'affiche la date de deces de Zena avec (.)
         console.log(joueurProfessionnel.nationalite[0]) // J'affiche la première nationalité de Zidane
+
+
+       
