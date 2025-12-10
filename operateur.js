@@ -51,8 +51,8 @@ console.log("Section de comparaison");
 let villages = "Mamoudzou";
 let communes = "MAMOUDZOU";
 
-console.log(villages == communes); // Les deux égal compare la valeur (true ou false)
-console.log(villages === communes); // Les trois égal compare la valeur et le type de donné
+console.log(villages == communes); // Les deux égale compare la valeur (true ou false)
+console.log(villages === communes); // Les trois égale compare la valeur et le type de donné
 
 // Signes > signifie "supérieur à" ou "bien plus granf que"
 let ages = 12;
