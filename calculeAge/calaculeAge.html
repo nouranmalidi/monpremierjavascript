@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule automatique de l'âge</title>
+    <script src="calculeAge.js" defer></script>
+    <link href="calculeAge.css" rel="stylesheet">
+</head>
+<body>
+
+    <section>
+
+        <h2>Jeu de calcul automatique de l'age</h2>
+
+        <form action="#" method="post" > <!--Début du formulaire-->
+                <div>
+                 <!--la balise label permet de d'écrire un texte et input type décrit ce qu'il aura comme information sur le formulaire. Le label est l'input sont relié grâce aux attribut for et name.-->
+                 <label for="nom">Nom :</label> 
+                 <input type="text" name="nom" id="nom">
+                 
+
+                 <label for="prenom">Prénom(s) :</label> 
+                 <input type="text" name="prenom" id="prenom">
+                 </div>
+                 <div> <br> <br>
+
+                 <label>Situation :</label>
+                 <input type="radio" name="genre" id="genre"> <!--avec l'attribut radit tu peut cocher qu'un seule proposition-->
+                 <label for="genre"> Etudiant </label> 
+
+                 <input type="radio" name="genre"  id="genre">
+                 <label for="genre"> Salarié </label> 
+                  
+                 
+                 </div> <br><br>
+
+                 <div>
+
+                 <label for="année">Année de naissance :</label> 
+                 <input type="number" name="année" id="année">
+
+                 </div> <br> <br>
+
+                 <div>
+
+                    <label for="age">Mon age :</label> 
+                    <input type="text" name="age" id="age" readonly>
+
+                 </div>
+        </form>
+    </section>
+    
+</body>
+</html>
