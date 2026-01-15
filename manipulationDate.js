@@ -5,7 +5,7 @@ console.log("Bienvenue sur mon orloge")
 function updateDateHeure() {
   const maDate = new Date();
   const anneeEnCours = maDate.getFullYear();
-  const moisEnCours = maDate.getMonth() 
+  const moisEnCours = maDate.getMonth() +1
 
   // Heures dynamiques
   const heureParis = new Date().toLocaleTimeString("fr-FR", {
@@ -39,3 +39,4 @@ setInterval(updateDateHeure, 1000);
 
 
 
+ 
